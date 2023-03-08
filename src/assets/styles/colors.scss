@@ -1,0 +1,51 @@
+:root {
+    --bg : rgb(59, 59, 64);
+    --text-color : #a9a9b2;
+    --border-color: hsl(240 4% 26%) !important;
+    --muted: rgba(44, 62, 80, 0.7);
+    --primary: rgb(16, 203, 138) !important;
+    --vs-primary: 16, 203, 138 !important;
+    --sidebar-text: rgba(250, 250, 250, 0.9);
+    --sidebar-logo: rgb(212, 212, 212);
+    --dialog-bg : #222225;
+}
+
+
+body , main {
+    color: var(--text-color) !important;
+    background-color: var(--bg) !important;
+}
+
+
+
+.vs-sidebar__item__text {
+    color: var(--sidebar-text) !important;
+}
+
+.vs-sidebar__item__icon i::before  {
+    color: var(--sidebar-logo) !important;
+    fill: var(--sidebar-logo) !important;
+}
+
+
+.vs-sidebar__item.active i::before {
+    color: var(--primary) !important;
+}
+
+.vs-navbar-content {
+    background-color: transparent !important;
+}
+
+.vs-dialog {
+    background-color: var(--dialog-bg) !important;
+    color: var(--text-color) !important;
+}
+
+.vs-dialog-content {
+    backdrop-filter: blur(8px);
+    background-color: rgba(59, 59, 64 , 0.4) !important;
+}
+
+// .vs-navbar-content.paddingScrollActive {
+//     background-color: red !important;
+// }
