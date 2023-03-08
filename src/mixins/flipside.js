@@ -11,7 +11,7 @@ export const flipSide = {
         async sendFlipSideApi() {
             try {
                 // 1.validate request
-                const ak = process.env.VUE_APP_AK;
+                const ak = "269eed6b-5a21-452f-8dba-0356c5b33a87";
                 if (!this.queryName || !this.namespace || !ak) {
                     console.log("no namespace or query or ak provided !");
                     return;
