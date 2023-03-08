@@ -129,6 +129,75 @@
     </div>
 
     <div class="col-12">
+      <vs-card type="0" class="mb-4 w-100 transparent">
+        <template #title>
+          <div class="d-flex align-center justify-space-between pt-2">
+            <div class="fw-600">
+              <div>important points</div>
+            </div>
+          </div>
+        </template>
+        <template #text>
+          <ul>
+            <li>
+              Before 2022-09-22 there were few axelar token number holding by
+              holders after that suddenly hold volume increases significantly
+            </li>
+            <li>
+              There are between 7-10 humpback that hold majority of axelar
+              tokens (about 83%). on 2022-09-29 there were 10 humpback. their
+              axelar tokens incresed and it reached 540M tokens on 2023-01-29.
+              after that three humpback sold their tokens so that today there
+              are 7 and they have 455M token.
+            </li>
+            <li>
+              After humpback s whalses have the most axelar token. the number of
+              them was 19 on 2022-09-29 and their possition was 75M after that
+              both number and possition inreased and reched 103M token and 24
+              respectively. after that booth dropped and todey there are 18
+              whales with possition 79M tokens
+            </li>
+
+            <li>
+              After 2023-01-26 all holders started to sell their axelar
+              tokens.also the increasing of shrimp number is because of that.
+              means the bigger holders sold their assets and turned to shrimp
+            </li>
+
+            <li>Majority of holders are shrimps.</li>
+          </ul>
+        </template>
+      </vs-card>
+    </div>
+
+    <div class="col-12">
+      <vs-card type="0" class="mb-4 w-100 transparent">
+        <template #title>
+          <div class="d-flex align-center justify-space-between pt-2">
+            <div class="fw-600">
+              <div>Axelar holders on osmosis network</div>
+            </div>
+          </div>
+        </template>
+        <template #text>
+          <p>
+            Like previous section this section we are going to examine axelar
+            holders but in osmosis network <br />
+            The groupnig is like previous section: case <br />
+            when BALANCE/ between 0 and 10 then 'Shrimp' <br />
+            when BALANCE between 10 and 100 then 'Crab' <br />
+            when BALANCE between 100 and 1000 then 'ctopus' <br />
+            when BALANCE/ between 1e3 and 10e3 then 'Fish' <br />
+            when BALANCE between 10e3 and 100e3 then 'Dolphin' <br />
+            when BALANCE between 100e3 and 1000e3 then 'Shark' <br />
+            when BALANCE between 1000e3 and 10000e3 then 'Whale' else 'Humpback'
+            end as wallet <br />
+          </p>
+        </template>
+      </vs-card>
+    </div>
+
+    <div class="col-12">
       <DoughnutChart
         query-name="a-3"
         label="Number of holder of axelar on osmosis"
@@ -209,6 +278,29 @@
         :groupBy="{ by: 'date', type: 'asc' }"
         :axis="{ x: 'date', y: 'number' }"
       />
+    </div>
+
+    <div class="col-12">
+      <vs-card type="0" class="mb-4 w-100 transparent">
+        <template #title>
+          <div class="d-flex align-center justify-space-between pt-2">
+            <div class="fw-600">
+              <div>important points</div>
+            </div>
+          </div>
+        </template>
+        <template #text>
+          <ul>
+            <li>There is about 3.5M axelar token on osmosis chain</li>
+            <li>
+              There are two whales on osmosis chain that have majority of axelar
+              tokens(about 2M).
+            </li>
+            <li>Number of axelar holders on osmosis have been growing</li>
+            <li>Majority of wallets are shrimp</li>
+          </ul>
+        </template>
+      </vs-card>
     </div>
 
     <div class="col-12 col-sm-8 col-md-6 col-lg-4">

@@ -46,6 +46,10 @@
                 <div class="mt-4 chart-container bar-chart">
                     <Bar :options="chartOptions" :data="barChartData" />
                 </div>
+
+               <slot name="data">
+                    
+               </slot>
             </template>
         </vs-card>
     </div>
