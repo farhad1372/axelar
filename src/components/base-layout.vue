@@ -196,6 +196,13 @@ export default {
           to: "Bridge",
         },
 
+        {
+          text: "Comparing",
+          icon: "isax isax-chart-21",
+          to: "Comparing",
+        },
+
+
         // { text: "General", to: "General", icon: "isax isax-buy-crypto" },
         // {
         //   text: "Fee",

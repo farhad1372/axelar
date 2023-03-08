@@ -75,6 +75,12 @@ const routes = [
                 component: () => import("../pages/bridge/analytics.vue"),
             },
 
+            {
+                path: "Comparing",
+                name: "Comparing",
+                component: () => import("../pages/comparing/index.vue"),
+            },
+
 
       
 
